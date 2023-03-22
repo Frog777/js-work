@@ -1,34 +1,46 @@
-'use strict';
+"use strict";
 
-var number = 5; //числовой тип данных
-var string = "Hello"; // строчный тип данных
-var sym = Symbol(); // тип данных ( символ)
-var boolean = true; // булево значение 
-null; // отсутствующий тип данных
-undefined; // переменная не определена ( var , let )
-var obj = {}; // тип данных обьект
-                // type number "NaN" and "infinity"
+//РАБОТА С ОПЕРАТОРОМ if который возвращает true или false;
 
-/* let persone = {
-    name: "John",   // пример обьекта
-    age: 25,
-    isMarried: false
+let num = 50;
+
+/* if(num < 49){
+    console.log("False")
+} else if (num > 100){
+    console.log("More")
+} else {
+    console.log("True")
+}
+
+(num == 50) ? console.log("True!!") : console.log("False!!");
+
+switch(num){
+    case num > 100 :
+        console.log("False");
+        break;
+    case num > 80 :
+        console.log("False");
+        break;
+    case 50 :
+        console.log("True!!!")
+        break;
+    default :
+        console.log("Что-то пошло не так!")
 };
-console.log(persone.name);
+while (num <= 60 ){
+    console.log(num);
+    num++
+} */
 
-let arr = ['pulp.png', "frog.jpg", "vk.svg"];
-console.log(arr[1]);
+/* do{
+    console.log(num);
+    num++;
+}
+while(num <=55); */
 
-let answer = prompt("вы готовы?", "Да");
-
-console.log(typeof(arr)); */
-
-
-let incr = 10, decr = 10;
-
-console.log(8 == 24/3);
-
-let isCheced = false,
-    isClose = false;
-
-console.log();
+for ( let i = 1; i < 9; i++){
+    if ( i == 6){
+        continue;
+    }
+    console.log(i);
+}
