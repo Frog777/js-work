@@ -2,7 +2,7 @@
 
 //РАБОТА С ОПЕРАТОРОМ if который возвращает true или false;
 
-let num = 50;
+/* let num = 50; */
 
 /* if(num < 49){
     console.log("False")
@@ -38,9 +38,16 @@ while (num <= 60 ){
 }
 while(num <=55); */
 
-for ( let i = 1; i < 9; i++){
+/* for ( let i = 1; i < 9; i++){
     if ( i == 6){
         continue;
     }
     console.log(i);
 }
+ */
+
+function calc(a,b){   //сперва идет функция. Затем имя функции с глагола начинается и так далее. затем параметры функции
+    return(a + b);
+};
+
+console.log(calc(7,10));
