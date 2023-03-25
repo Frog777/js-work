@@ -69,7 +69,7 @@ while(num <=55); */
 console.log(calcSum(5,6)); */
 
 
-let str = "Test";   //в js есть свойства и методы
+/* let str = "Test";   //в js есть свойства и методы
 
 console.log(str.length); //здесь представлено свойство которое прописывается через "." к переменной.
 console.log(str.toUpperCase()); 
@@ -78,10 +78,10 @@ console.log(str.toLowerCase());//здесь представлен метод (�
 let SecondLet = "12.2px"
 //console.log(Math.round(SecondLet)); //метод округления 12.2
 console.log(parseFloat(SecondLet)); //метод ищет float или целые int
-
+ */
 
 //обьявление объектов let x={};,  let x = new object(); или так как далее
-let user = {
+/* let user = {
     name: "John",
     age: 27,
     address: {
@@ -91,4 +91,16 @@ let user = {
     "center London": "center"
 };
 user.married = true;
-console.log(user["center London"]);
+console.log(user["center London"]); */
+
+let user = {
+    name: "Alex",
+    age: 27,
+    job: "web dev"
+}
+user.lastName = "Zubkov"
+
+delete user.age
+for (let key in user){
+    console.log('Это свойство ' + key + ' имеет значение ' + user[key]);
+}
