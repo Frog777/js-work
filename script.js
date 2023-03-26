@@ -92,7 +92,7 @@ console.log(parseFloat(SecondLet)); //метод ищет float или целы�
 };
 user.married = true;
 console.log(user["center London"]); */
-
+/* 
 let user = {
     name: "Alex",
     age: 27,
@@ -104,3 +104,21 @@ delete user.age
 for (let key in user){
     console.log('Это свойство ' + key + ' имеет значение ' + user[key]);
 }
+
+
+let arr = ['first',2,'Three',4,5, true, num = {1:2,3:4}]; */                                                  //МАССИВЫ
+/* arr.pop();
+arr.push("5");
+arr.shift();
+arr.unshift('1');
+for(let i in arr){
+    console.log(arr[i], typeof(arr[i]));
+} */
+/* arr.forEach(function(item, i , mass){
+    console.log(i + ': '+ item + ' ' + typeof(item));
+}); */
+
+
+let arr = ['len','777','666'],
+    i = arr.join('/');
+console.log(i);
